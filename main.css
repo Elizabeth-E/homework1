@@ -1,0 +1,38 @@
+
+
+main{
+  width: 60%;
+  margin: 0px auto;
+}
+img {
+  display: block;
+  margin-bottom: 30px;
+  margin-left: 30%;
+  width: 40%;
+}
+section{
+  width: 30%;
+  margin: 0px auto;
+}
+body{
+  font-family: sans-serif,helvetica,serif;
+  font-size: 20px;
+  color: #b3e51d;
+}
+p{
+  font-family: courier,helvetica,serif;
+  font-size: 15px;
+  color: #42bcf4;
+  text-align: justify;
+  line-height: 1.5em;
+}
+h1{
+  font-size: 300%;
+  margin-left: 20%;
+  text-transform: uppercase;
+}
+h2{
+  font-style: italic;
+  font-size: 400%;
+  text-transform: capitalize;
+}
