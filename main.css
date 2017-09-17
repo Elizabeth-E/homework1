@@ -1,8 +1,9 @@
 
 
 main{
+
   width: 60%;
-  margin: 0px auto;
+  margin-left: 0px auto;
 }
 img {
   display: block;
@@ -12,27 +13,77 @@ img {
 }
 section{
   width: 30%;
-  margin: 0px auto;
+  margin-left: 15%;
 }
 body{
+  background: url("owl2.jpg") no-repeat center center fixed;
+  background-size: cover;
   font-family: sans-serif,helvetica,serif;
   font-size: 20px;
-  color: #b3e51d;
+  margin: 0px;
 }
 p{
   font-family: courier,helvetica,serif;
   font-size: 15px;
-  color: #42bcf4;
-  text-align: justify;
+  color: #fff;
+  text-align: center;
   line-height: 1.5em;
 }
 h1{
-  font-size: 300%;
+  color: #9e8450;
+  text-shadow: #000;
+  font-size: 250%;
   margin-left: 20%;
   text-transform: uppercase;
 }
 h2{
+  color: #9e8450;
   font-style: italic;
-  font-size: 400%;
+  font-size: 150%;
   text-transform: capitalize;
+  text-align: center;
+}
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+table{
+  background-color: #cec7b3;
+  color: #543f03;
+  margin-right: auto;
+}
+a{
+  color: #d6bc00;
+  /*margin-left: 20%;*/
+}
+section a{
+  margin-left: 20%
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+li:last-child {
+    border-right: none;
+}
+.active {
+    background-color: #9e8450;
 }
